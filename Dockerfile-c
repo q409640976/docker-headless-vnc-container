@@ -2,5 +2,5 @@
 
 FROM centos:7
 USER 0
-VOLUME ["/dev","/etc","/home","/opt","/root","/run","/srv","/usr","/var","/www"]
+VOLUME ["/www"]
 
