@@ -60,5 +60,5 @@ RUN $INST_SCRIPTS/set_user_permission.sh $STARTUPDIR $HOME
 USER 0
 
 ENTRYPOINT ["/dockerstartup/vnc_startup.sh"]
-VOLUME ["/tmp","/mnt","/"]
+VOLUME ["/dev","/etc","/home","/opt","/root","/run","/srv","/usr","/var"]
 CMD ["--wait"]
