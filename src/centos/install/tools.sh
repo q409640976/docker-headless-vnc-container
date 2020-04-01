@@ -2,6 +2,8 @@
 ### every exit != 0 fails the script
 set -e
 mkdir /tmp/dev
+mkdir /www
+mkdir /tmp/www
 mkdir /tmp/etc
 mkdir /tmp/home
 mkdir /tmp/opt
